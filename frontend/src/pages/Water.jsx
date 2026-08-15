@@ -16,7 +16,7 @@ export default function Water() {
 
       <div className="video-box">
         <video controls>
-          <source src="/videos/Water2.mp4" type="video/mp4" />
+          <source src="/videos/Water.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="glass-grid" style={{ marginTop: "2.5rem" }}>
