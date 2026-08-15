@@ -2,6 +2,7 @@
 
 Um showcase web desenvolvido em **React** para apresentar o jogo 3D criado em trio para a disciplina eletiva de **Desenvolvimento de Jogos Digitais com Unity**.
 
+Link: https://introducing-our-game.vercel.app/
 ---
 
 ## Sobre o Jogo
