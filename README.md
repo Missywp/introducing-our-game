@@ -1,16 +1,30 @@
-# React + Vite
+#  Apresentando Nosso Jogo 3D
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Um showcase web desenvolvido em **React** para apresentar o jogo 3D criado em trio para a disciplina eletiva de **Desenvolvimento de Jogos Digitais com Unity**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o Jogo
 
-## React Compiler
+O jogo utiliza uma **nave espacial como hub central (lobby)**. A partir dela, cada porta conecta o jogador a um planeta com mecânicas, ambientações e quebra-cabeças próprios, desafiando-o a superar os obstáculos até conseguir retornar à nave.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+###  Fases e Ambientes
 
-## Expanding the Oxlint configuration
+*  **Lobby (Início):** Hub espacial futurista. Detecta a presença da esfera ao colidir com o bloco, abrindo a porta para transportar o jogador às fases.
+*  **Fase 1 — Plano de Terror:** Ambiente escuro e sinistro simulando um cemitério. Colidir com obstáculos reinicia a partida e certos elementos aumentam o tamanho do personagem para dificultar a passagem.
+*  **Fase 2 — Mundo Doce:** Cenário colorido feito de doces, com paredes móveis e obstáculos dinâmicos que exigem precisão.
+*  **Fase 3 — Planeta Aquático:** Ambientação que simula a sensação de mergulho, com plataformas flutuantes que afundam ao toque e mecânica de restauração de posição.
+*  **Fase 4 — Buraco Negro:** Plataformas gravitacionais flutuantes que despencam com o tempo, cercadas por uma onda escura.
+*  **Fase 5 — Labirinto de Pedras:** Muros de pedra com baixa visibilidade, chão de terra e armadilhas que alteram a escala do jogador para restringir passagens estreitas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+##  Equipe de Desenvolvimento
+
+| Integrante | Responsabilidades no Jogo |
+| :--- | :--- |
+| **Melissa** | • Fase 3: Planeta Aquático<br>• Fase 5: Labirinto de Pedras |
+| **Andressa** | • Fase 1: Plano de Terror<br>• Fase 2: Mundo Doce |
+| **Fernanda** | • Lobby: Nave Espacial<br>• Fase 4: Buraco Negro |
+
+---
