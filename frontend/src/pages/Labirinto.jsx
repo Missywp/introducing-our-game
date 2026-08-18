@@ -3,38 +3,39 @@ import { Link } from "react-router-dom";
 export default function Labirinto() {
   return (
     <div>
-      <Link to="/fases" className="btn-pill" style={{ marginBottom: "2rem" }}>
-        ← Voltar para Fases
-      </Link>
-
-      <div
-        className="section-heading"
-        style={{ textAlign: "left", marginTop: "1rem" }}
-      >
-        <h2>Labirinto de Pedras </h2>
+      <div style={{ textAlign: "left", marginBottom: "1rem" }}>
+        <Link to="/fases" className="btn-voltar">
+          &lt; Voltar
+        </Link>
       </div>
 
-      <div className="video-box">
-        <video controls>
-          <source src="/videos/Labirinto.mp4" type="video/mp4" />
-        </video>
+      <div className="section-heading-pixel">
+        <h2>Fase 5: Labirinto de Pedras</h2>
       </div>
 
-      <div className="glass-grid" style={{ marginTop: "2.5rem" }}>
-        <div className="glass-card">
-          <span className="card-tag">Design</span>
-          <p>
-            Muros de pedras com baixa visibilidade, chão de terra e distorção de
-            tamanho.
-          </p>
+      <div className="fase-details-wrapper">
+        <div className="fase-details-video-box">
+          <video controls autoPlay loop muted>
+            <source src="/videos/Labirinto.mp4" type="video/mp4" />
+          </video>
         </div>
-        <div className="glass-card">
-          <span className="card-tag">Mecânica</span>
-          <p>
-            Visão limitada e obstáculos ativados ao toque, obrigando o jogador a
-            reiniciar a partida e aumentando o tamanho do jogador, dificultando
-            passagem.
-          </p>
+
+        <div className="fase-details-info">
+          <div className="fase-details-topic">
+            <h3>Design</h3>
+            <p>
+              Muros de pedras com baixa visibilidade, chão de terra e distorção
+              de tamanho.
+            </p>
+          </div>
+          <div className="fase-details-topic">
+            <h3>Mecânica</h3>
+            <p>
+              Visão limitada e obstáculos ativados ao toque, obrigando o jogador
+              a reiniciar a partida e aumentando o tamanho do jogador,
+              dificultando passagem.
+            </p>
+          </div>
         </div>
       </div>
     </div>

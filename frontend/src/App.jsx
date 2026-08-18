@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import Home from "./pages/Home";
 import Fases from "./pages/Fases";
 import Labirinto from "./pages/Labirinto";
@@ -16,14 +16,13 @@ export default function App() {
     <BrowserRouter>
       <div className="app-container">
         <nav className="navbar">
-          <span className="nav-logo">Apresentando nosso Jogo 3D</span>
           <div className="nav-links">
-            <Link to="/" className="nav-link">
-              Início
-            </Link>
-            <Link to="/fases" className="nav-link">
+            <NavLink to="/" className="nav-link">
+              Home
+            </NavLink>
+            <NavLink to="/fases" className="nav-link">
               Fases
-            </Link>
+            </NavLink>
           </div>
         </nav>
 

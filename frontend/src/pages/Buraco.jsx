@@ -3,31 +3,34 @@ import { Link } from "react-router-dom";
 export default function Buraco() {
   return (
     <div>
-      <Link to="/fases" className="btn-pill" style={{ marginBottom: "2rem" }}>
-        ← Voltar para Fases
-      </Link>
-
-      <div
-        className="section-heading"
-        style={{ textAlign: "left", marginTop: "1rem" }}
-      >
-        <h2>Buraco negro </h2>
+      <div style={{ textAlign: "left", marginBottom: "1rem" }}>
+        <Link to="/fases" className="btn-voltar">
+          &lt; Voltar
+        </Link>
       </div>
 
-      <div className="video-box">
-        <video controls>
-          <source src="/videos/Buraco.mp4" type="video/mp4" />
-        </video>
+      <div className="section-heading-pixel">
+        <h2>Fase 4: Buraco Negro</h2>
       </div>
 
-      <div className="glass-grid" style={{ marginTop: "2.5rem" }}>
-        <div className="glass-card">
-          <span className="card-tag">Design</span>
-          <p>Simulando plataformas gravitacionas e uma onda escura pairando.</p>
+      <div className="fase-details-wrapper">
+        <div className="fase-details-video-box">
+          <video controls autoPlay loop muted>
+            <source src="/videos/Buraco.mp4" type="video/mp4" />
+          </video>
         </div>
-        <div className="glass-card">
-          <span className="card-tag">Mecânicas</span>
-          <p>Plataformas flutuantes que despencam, reiniciando a fase.</p>
+
+        <div className="fase-details-info">
+          <div className="fase-details-topic">
+            <h3>Design</h3>
+            <p>
+              Simulando plataformas gravitacionas e uma onda escura pairando.
+            </p>
+          </div>
+          <div className="fase-details-topic">
+            <h3>Mecânica</h3>
+            <p>Plataformas flutuantes que despencam, reiniciando a fase.</p>
+          </div>
         </div>
       </div>
     </div>
