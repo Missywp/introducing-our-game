@@ -3,35 +3,38 @@ import { Link } from "react-router-dom";
 export default function Terror() {
   return (
     <div>
-      <Link to="/fases" className="btn-pill" style={{ marginBottom: "2rem" }}>
-        ← Voltar para Fases
-      </Link>
-
-      <div
-        className="section-heading"
-        style={{ textAlign: "left", marginTop: "1rem" }}
-      >
-        <h2> Plano de Terror </h2>
+      <div style={{ textAlign: "left", marginBottom: "1rem" }}>
+        <Link to="/fases" className="btn-voltar">
+          &lt; Voltar
+        </Link>
       </div>
 
-      <div className="video-box">
-        <video controls>
-          <source src="/videos/Terror.mp4" type="video/mp4" />
-        </video>
+      <div className="section-heading-pixel">
+        <h2>Fase 1: Planeta de Terror</h2>
       </div>
 
-      <div className="glass-grid" style={{ marginTop: "2.5rem" }}>
-        <div className="glass-card">
-          <span className="card-tag">Design</span>
-          <p>Simulando um cemitério, ambiente mais escuro e sinistro</p>
+      <div className="fase-details-wrapper">
+        <div className="fase-details-video-box">
+          <video controls autoPlay loop muted>
+            <source src="/videos/Terror.mp4" type="video/mp4" />
+          </video>
         </div>
-        <div className="glass-card">
-          <span className="card-tag">Mêcanica</span>
-          <p>
-            Ao colidir com objetos, o jogador é obrigado a reiniciar a partida,
-            caso encoste em determinado objeto, o jogo dificulta, aumentando o
-            tamanho do personagem
-          </p>
+
+        <div className="fase-details-info">
+          <div className="fase-details-topic">
+            <h3>Design</h3>
+            <p>
+              Design feito para simular o lobby de uma nave espacial, ambiente
+              com visual tecnológico e futurista.
+            </p>
+          </div>
+          <div className="fase-details-topic">
+            <h3>Mecânica</h3>
+            <p>
+              Detecta presença do personagem ao colidir com o bloco, a porta se
+              abre e o jogador é levado as fases.
+            </p>
+          </div>
         </div>
       </div>
     </div>
