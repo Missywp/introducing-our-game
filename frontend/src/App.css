@@ -250,6 +250,25 @@ body {
   font-weight: 300;
 }
 
+.linkedin-link {
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  a:hover {
+    color: #c90e6b;
+    transition: color 0.3s;
+    font-weight: 700;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+}
+
 .team-member strong {
   font-weight: 700;
 }
