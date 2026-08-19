@@ -104,7 +104,7 @@ export default function Home() {
 
       {/* Seção da Equipe */}
       <div className="section-heading-pixel">
-        <h2>Apresentando nossa equipe</h2>
+        <h2>Conheça os desenvolvedores</h2>
       </div>
 
       <div className="team-grid">
@@ -118,6 +118,10 @@ export default function Home() {
           <p>
             <strong>Fase 5:</strong> Labirinto de pedras
           </p>
+          <p className="linkedin-link">
+            <img src="/Vector.png" alt="Icon link" />
+            <a href="https://www.linkedin.com/in/melissa-perussulo">LinkedIn</a>
+          </p>
         </div>
 
         <div className="team-member">
@@ -130,6 +134,13 @@ export default function Home() {
           <p>
             <strong>Fase 2:</strong> Mundo doce
           </p>
+
+          <p className="linkedin-link">
+            <img src="/Vector.png" alt="Icon link" />
+            <a href="https://www.linkedin.com/in/andressa-de-oliveira-barros-50044523a/">
+              LinkedIn
+            </a>
+          </p>
         </div>
 
         <div className="team-member">
@@ -141,6 +152,12 @@ export default function Home() {
           </p>
           <p>
             <strong>Fase 4:</strong> Buraco Negro
+          </p>
+          <p className="linkedin-link">
+            <img src="/Vector.png" alt="Icon link" />
+            <a href="https://www.linkedin.com/in/fernanda-costa-moraes-a78197309/">
+              LinkedIn
+            </a>
           </p>
         </div>
       </div>
