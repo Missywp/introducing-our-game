@@ -7,7 +7,6 @@ import Doce from "./pages/Doce";
 import Lobby from "./pages/Lobby";
 import Water from "./pages/Water";
 import Buraco from "./pages/Buraco";
-import Geral from "./pages/Geral";
 
 import "./App.css";
 
@@ -36,7 +35,6 @@ export default function App() {
             <Route path="/fases/lobby" element={<Lobby />} />
             <Route path="/fases/doce" element={<Doce />} />
             <Route path="/fases/buraco" element={<Buraco />} />
-            <Route path="/fases/geral" element={<Geral />} />
           </Routes>
         </main>
       </div>

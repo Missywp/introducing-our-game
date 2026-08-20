@@ -23,14 +23,16 @@ export default function Lobby() {
         <div className="fase-details-info">
           <div className="fase-details-topic">
             <h3>Design</h3>
-            <p>Simulando um cemitério, ambiente mais escuro e sinistro.</p>
+            <p>
+              Design feito para simular o lobby de uma nave espacial, ambiente
+              com visual tecnológico e futurista.
+            </p>
           </div>
           <div className="fase-details-topic">
             <h3>Mecânica</h3>
             <p>
-              Ao colidir com objetos, o jogador é obrigado a reiniciar a
-              partida, caso encoste em determinado objeto, o jogo dificulta,
-              aumentando o tamanho do personagem.
+              Detecta presença do personagem ao colidir com o bloco, a porta se
+              abre e o jogador é levado as fases.
             </p>
           </div>
         </div>
