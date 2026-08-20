@@ -23,10 +23,7 @@ export default function Terror() {
         <div className="fase-details-info">
           <div className="fase-details-topic">
             <h3>Design</h3>
-            <p>
-              Design feito para simular o lobby de uma nave espacial, ambiente
-              com visual tecnológico e futurista.
-            </p>
+            <p>Simulando um cemitério, ambiente mais escuro e sinistro.</p>
           </div>
           <div className="fase-details-topic">
             <h3>Mecânica</h3>
