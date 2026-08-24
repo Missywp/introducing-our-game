@@ -34,4 +34,6 @@ O jogo utiliza uma **nave espacial como hub central (lobby)**. A partir dela, ca
 
 Abaixo você pode ver o design inicial planejado no Figma para o projeto:
 
+<img src="projeto-site-jogo-1.png" width="500px">
+<img src="projeto-site-jogo-2.png" width="500px">
 
