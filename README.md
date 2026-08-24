@@ -29,3 +29,9 @@ O jogo utiliza uma **nave espacial como hub central (lobby)**. A partir dela, ca
 | **Fernanda** | • Lobby: Nave Espacial<br>• Fase 4: Buraco Negro |
 
 ---
+
+## Protótipo do site
+
+Abaixo você pode ver o design inicial planejado no Figma para o projeto:
+
+
